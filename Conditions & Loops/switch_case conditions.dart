@@ -24,6 +24,27 @@ void main() {
   }
 
 
+// declaring a interger variable   
+int Roll_num =  90014;  
+   
+// Evalaute the test-expression to find the match  
+  switch (Roll_num) {  
+  case 90009:  
+    print("My name is Joseph");  
+    break;  
+  case 90010:  
+    print("My name is Peter");  
+    break;  
+  case 090011:  
+    print("My name is Devansh");  
+    break;  
+  
+// default block  
+  default:  
+    print("Roll number is not found");  
+}  
+
+
   //Example of Switch Using Enum In Dart
   
   const weather2 = Weather.cloudy;
