@@ -29,8 +29,8 @@ names1[1] = "Bill"; // possible
 names1[2] = "Elon"; // possible
     
 const List<String> names2 = ["Raj", "John", "Rocky"]; // Immutable List
-// names2[1] = "Bill"; // not possible
-// names2[2] = "Elon"; // not possible
+ names2[1] = "Bill"; // not possible
+names2[2] = "Elon"; // not possible
 
 //Access First And Last Elements Of List
 List<String> drinks = ["water", "juice", "milk", "coke"];
