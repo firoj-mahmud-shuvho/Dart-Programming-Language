@@ -23,11 +23,25 @@ void main(){
            print("He is Unmarried"); //false
         }
 
-        //shortcut of dart
+     
 
-        int age = 60;
+//Using Ternary Operator
+//This program finds greatest number between two numbers using ternary operator.
 
-        age>=18?print("He is an adult"):print("He is not adult");
+
+  int number1 = 10;
+  int number2 = 15;
+  int max = (number1 > number2) ? num1 : num2;
+  print("The greatest number is $max"); //15
+
+  int age = 60;
+
+  age>=18?print("He is an adult"):print("He is not adult");
+
+
+  var selection = 2;
+  var output = (selection == 2) ? 'Apple' : 'Banana';
+  print(output); //Apple
 
 
 }
