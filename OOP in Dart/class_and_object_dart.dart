@@ -36,7 +36,7 @@ class Math{
 
 class AreaReactangle{
   
-  //Named Parameters in Constructor
+  //Named Parameters
   double? calculate({required var length, required var width}){
     var result = length * width;
     print("Area is = $result");
