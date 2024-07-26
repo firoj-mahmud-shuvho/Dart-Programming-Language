@@ -80,7 +80,4 @@ print("List after updation using replaceAll() function : ${list1}"); //[5, 6, 7,
 
    List<int> even = numbers.where((number)=> number.isEven).toList(); 
    print(even); //[2, 4, 6, 8, 10, 12, 14]
-
-
-
 }
